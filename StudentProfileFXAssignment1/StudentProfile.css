@@ -1,0 +1,17 @@
+.root{
+	-fx-font-size: 10pt;
+	-fx-font-family: "Helvitica", Sans Serif;
+	-fx-base: lightgreen;
+	-fx-font-weight: bold;
+	
+}
+.button{
+	-fx-background-color: #69db0b;
+	-fx-text-fill: white;
+	-fx-font-size: 10pt;
+}
+.button:hover{
+	-fx-background-color: green;
+	-fx-effect: dropshadow(one-pass-box, black, 8,0.0,2,0); 
+	-fx-cursor: hand;
+}
